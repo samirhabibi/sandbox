@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Visikon Sandbox API</title>
+        <style>
+            body {
+                padding: 100px;
+                font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+            }
+
+            h1>span {
+                color: navy;
+            }
+
+            li>span {
+                font-family: monospace;
+            }
+
+            li>span:first-child {
+                display: inline-block;
+                width: 65px;
+            }
+            li>span:nth-child(2) {
+                display: inline-block;
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1><span>Visikon</span> Sandbox API</h1>
+
+        <h2>API endpoint</h2>
+        <ul>
+            <li><span>GET</span><span>/api/images</span><span>Get all images</span></li>
+            <li><span>GET</span><span>/api/images/:id</span><span>Get one image</span></li>
+            <li><span>POST</span><span>/api/images</span><span>Add an image</span></li>
+            <li><span>DELETE</span><span>/api/images/:id</span><span>Delete an image</span></li>
+        </ul>
+
+    </body>
+</html>
